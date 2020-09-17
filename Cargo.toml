@@ -1,0 +1,20 @@
+[package]
+name = "stm32-rcc-traits"
+version = "0.1.0"
+authors = ["Boris Vinogradov <no111u3@gmail.com>"]
+categories = [
+    "embedded",
+    "hardware-support",
+    "no-std",
+]
+description = "STM32 RCC traits"
+keywords = [
+    "arm",
+    "cortex-m",
+    "stm32f4xx",
+    "hal",
+]
+license = "APACHE-2.0"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/rust-hal/stm32-rcc-traits"
