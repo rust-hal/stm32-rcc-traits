@@ -18,3 +18,10 @@ license = "APACHE-2.0"
 edition = "2018"
 readme = "README.md"
 repository = "https://github.com/rust-hal/stm32-rcc-traits"
+
+[dependencies]
+stm32-utility-traits = "0.1.0"
+
+[patch.crates-io]
+#stm32-utility-traits = { git = "https://github.com/rust-hal/stm32-utility-traits" }
+stm32-utility-traits = { path = "/Users/nis/Develop/stm32-utility-traits" }
